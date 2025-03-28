@@ -29,7 +29,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
 if($connection->query($sql)===TRUE){
-    echo"SUCCESSFULLY UPDATED";
+    echo"SUCCESSFULLY UPDATED thank you";
     header("Location: display.php");
 
     exit();
